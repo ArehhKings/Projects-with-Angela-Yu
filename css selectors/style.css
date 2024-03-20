@@ -1,0 +1,31 @@
+body {
+  align-items: center;
+}
+
+ol {
+  margin-left: -40px;
+  margin-top: auto-20px;
+  list-style-position: inside;
+}
+.note {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.note[value="2"] {
+  color: #0f0;
+}
+
+.note[value="3"] {
+  color: #00f;
+}
+
+.note[value="4"] {
+  color: #ff0;
+}
+
+.note[value="5"] {
+  color: #f0f;
+}
